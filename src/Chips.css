@@ -1,0 +1,35 @@
+/* Add a basic CSS rule */
+body {
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+body:hover {
+    background-color: lightgray;
+}
+/* Styling for links */
+a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+/* Button-like style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
